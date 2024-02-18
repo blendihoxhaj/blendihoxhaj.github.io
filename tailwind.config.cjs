@@ -5,9 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#050816",
+        primary: "transparent",
         secondary: "#aaa6c3",
-        tertiary: "#151030",
+        tertiary: "#0a0717",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",
@@ -19,8 +19,13 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        'custom-gradient': 'radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%)',
+       
       },
+
+    //  backgroundImage: {
+     //   "hero-pattern": "url('/src/assets/herobg.png')",
+      //},
     },
   },
   plugins: [],
